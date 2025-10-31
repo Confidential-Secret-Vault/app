@@ -1,0 +1,82 @@
+# ==========================================
+# Node & Package Files
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ==========================================
+# Environment Files
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Hardhat Artifacts & Cache
+# ==========================================
+artifacts/
+cache/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+
+# ==========================================
+# Build Outputs
+# ==========================================
+dist/
+build/
+.next/
+out/
+public/build/
+tmp/
+temp/
+
+# ==========================================
+# IDE & Editor Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# ==========================================
+# System Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Logs
+# ==========================================
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# ==========================================
+# Test Outputs
+# ==========================================
+coverage/
+test-results/
+reports/
+jest-html-reporters-*.html
+
+# ==========================================
+# Local Blockchain (Hardhat / Ganache)
+# ==========================================
+.localnode/
+.chain/
+.chain-data/
+database/
